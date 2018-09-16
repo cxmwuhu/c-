@@ -1,0 +1,93 @@
+﻿生成启动时间为 2016/5/13 14:45:10。
+     1>项目“D:\Account\YunTest\hiredis-win32\hiredis.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“hiredis.dir\Debug\hiredis.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“hiredis.dir\Debug\hiredis.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule D:/ClusterTest/3rdparty/hiredis-win32/CMakeLists.txt
+         CMake does not need to re-run because D:\aaa\3rdparty\hiredis-win32\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"hiredis.dir\Debug\\" /Fd"hiredis.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\ClusterTest\3rdparty\hiredis-win32\async.c" "..\..\..\ClusterTest\3rdparty\hiredis-win32\dict.c" "..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c" "..\..\..\ClusterTest\3rdparty\hiredis-win32\net.c" "..\..\..\ClusterTest\3rdparty\hiredis-win32\sds.c" "..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c" "..\..\..\ClusterTest\3rdparty\redis-win32\win32_wsiocp.c" "..\..\..\ClusterTest\3rdparty\redis-win32\zmalloc.c" "..\..\..\ClusterTest\3rdparty\redis-win32\adlist.c" "..\..\..\ClusterTest\3rdparty\redis-win32\ae.c"
+         async.c
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\async.c(431): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+         dict.c
+         hiredis.c
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(223): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(225): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(226): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(227): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(228): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(229): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(232): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(234): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(246): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(894): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(897): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(974): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\hiredis.c(978): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         net.c
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\net.c(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\net.c(82): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : 参见“close”的声明
+         sds.c
+     1>..\..\..\ClusterTest\3rdparty\hiredis-win32\sds.c(180): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : 参见“vsnprintf”的声明
+         win32fixes.c
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(483): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(139) : 参见“__timezone”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(484): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(131) : 参见“__daylight”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(509): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(511): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(520): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(543): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(548): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\..\..\ClusterTest\3rdparty\redis-win32\win32fixes.c(567): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+         win32_wsiocp.c
+         zmalloc.c
+         adlist.c
+         ae.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Account\YunTest\Debug\hiredis.lib" /NOLOGO hiredis.dir\Debug\async.obj
+         hiredis.dir\Debug\dict.obj
+         hiredis.dir\Debug\hiredis.obj
+         hiredis.dir\Debug\net.obj
+         hiredis.dir\Debug\sds.obj
+         hiredis.dir\Debug\win32fixes.obj
+         hiredis.dir\Debug\win32_wsiocp.obj
+         hiredis.dir\Debug\zmalloc.obj
+         hiredis.dir\Debug\adlist.obj
+         hiredis.dir\Debug\ae.obj
+     1>dict.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         hiredis.vcxproj -> D:\Account\YunTest\Debug\hiredis.lib
+       FinalizeBuildStatus:
+         正在删除文件“hiredis.dir\Debug\hiredis.unsuccessfulbuild”。
+         正在对“hiredis.dir\Debug\hiredis.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Account\YunTest\hiredis-win32\hiredis.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.34

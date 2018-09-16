@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YunTest", "YunTest\YunTest.vcxproj", "{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiredis", "hiredis-win32\hiredis.vcxproj", "{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject1", "TestProject1\TestProject1.vcxproj", "{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DE3E764-1C8F-4D8F-B114-60A7FBA4A55D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		YunTest.vsmdi = YunTest.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = YunTest.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.Debug|Win32.Build.0 = Debug|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.Release|Win32.ActiveCfg = Release|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.Release|Win32.Build.0 = Release|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{DC0CEB56-0A63-499C-BB03-6B0203DFF9F8}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.Debug|Win32.Build.0 = Debug|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.Release|Win32.ActiveCfg = Release|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.Release|Win32.Build.0 = Release|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{2A4E5C7F-C0CE-4EAA-B341-AEF24C507778}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.Debug|Win32.Build.0 = Debug|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.Release|Win32.ActiveCfg = Release|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.Release|Win32.Build.0 = Release|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{00CF7692-9518-4D52-8053-3F2AA5D5BDBB}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,105 @@
+﻿生成启动时间为 2016/8/27 10:04:44。
+     1>项目“D:\Account\YunTest\YunTest\YunTest.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\YunTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\YunTest.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\account\yuntest\yuntest\struct.h(99): warning C4161: #pragma pack(pop...) : 出栈的比入栈的多
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\YunTest.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt control\CheckComboBox.cpp Encrty.cpp GetMac.cpp GetSysInfomation.cpp HqSocket.cpp IOFUN.cpp LoadXml.cpp MutilThread.cpp MySocket.cpp Pack.cpp RedisInfo.cpp YunTest.cpp YunTestDlg.cpp
+         CheckComboBox.cpp
+         Encrty.cpp
+     1>Encrty.cpp(47): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>Encrty.cpp(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         GetMac.cpp
+     1>GetMac.cpp(50): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         GetSysInfomation.cpp
+     1>GetSysInfomation.cpp(17): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>GetSysInfomation.cpp(18): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>GetSysInfomation.cpp(40): warning C4244: “初始化”: 从“__int64”转换到“double”，可能丢失数据
+         HqSocket.cpp
+         IOFUN.cpp
+     1>IOFUN.cpp(224): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>IOFUN.cpp(339): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         LoadXml.cpp
+         MutilThread.cpp
+     1>MutilThread.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>MutilThread.cpp(694): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MutilThread.cpp(732): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MutilThread.cpp(789): warning C4129: “A”: 不可识别的字符转义序列
+     1>MutilThread.cpp(901): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MutilThread.cpp(939): warning C4018: “>=”: 有符号/无符号不匹配
+     1>MutilThread.cpp(1079): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>MutilThread.cpp(1115): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>MutilThread.cpp(1145): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>MutilThread.cpp(1148): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         MySocket.cpp
+         Pack.cpp
+         RedisInfo.cpp
+     1>RedisInfo.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>RedisInfo.cpp(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>RedisInfo.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>RedisInfo.cpp(233): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>RedisInfo.cpp(247): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+         YunTest.cpp
+         YunTestDlg.cpp
+     1>YunTestDlg.cpp(440): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(249) : 参见“freopen”的声明
+     1>YunTestDlg.cpp(591): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>YunTestDlg.cpp(594): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>YunTestDlg.cpp(595): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>YunTestDlg.cpp(903): warning C4018: “>=”: 有符号/无符号不匹配
+     1>YunTestDlg.cpp(945): warning C4018: “>=”: 有符号/无符号不匹配
+     1>YunTestDlg.cpp(2709): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>YunTestDlg.cpp(14291): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tinyxml\tinystr.cpp tinyxml\tinyxml.cpp tinyxml\tinyxmlerror.cpp tinyxml\tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\YunTest.res" YunTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Account\YunTest\Release\YunTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Account\YunTest\Release\ hiredis.lib ssleay32.lib libeay32.lib /MANIFEST /ManifestFile:"Release\YunTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Account\YunTest\Release\YunTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Account\YunTest\Release\YunTest.lib" /MACHINE:X86 Release\YunTest.res
+         Release\CheckComboBox.obj
+         Release\Encrty.obj
+         Release\GetMac.obj
+         Release\GetSysInfomation.obj
+         Release\HqSocket.obj
+         Release\IOFUN.obj
+         Release\LoadXml.obj
+         Release\MutilThread.obj
+         Release\MySocket.obj
+         Release\Pack.obj
+         Release\RedisInfo.obj
+         Release\stdafx.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\YunTest.obj
+         Release\YunTestDlg.obj
+         正在生成代码
+     1>d:\account\yuntest\yuntest\iofun.cpp(592): warning C4715: “CIOFUN::_DoSend”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         YunTest.vcxproj -> D:\Account\YunTest\Release\YunTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Account\YunTest\Release\YunTest.exe;#1" /manifest Release\YunTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\YunTest.unsuccessfulbuild”。
+         正在对“Release\YunTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Account\YunTest\YunTest\YunTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:34.94
